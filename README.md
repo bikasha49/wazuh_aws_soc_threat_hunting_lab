@@ -124,12 +124,7 @@ Built and operated a cloud based SIEM by deploying Wazuh on AWS EC2 and integrat
 • Shows cloud security awareness  
 • Shows professional documentation and reporting skills  
 
-## Screenshots and Evidence
-## Screenshots and Evidence
-
-[![Project Screenshots](https://github.com/bikasha49/wazuh-aws-siem-threat-detection/blob/main/Screenshots/Wazuh-architecture-diagram.png?raw=true)](https://github.com/bikasha49/wazuh-aws-siem-threat-detection/tree/main/Screenshots)
-
-
+## Screenshots and Evidence 👉 *[Click here](https://github.com/bikasha49/wazuh-aws-siem-threat-detection/tree/main/Screenshots)*
 
 ### 🌐 Let's Connect
 <a href="https://www.linkedin.com/in/bikasha-gurung">
