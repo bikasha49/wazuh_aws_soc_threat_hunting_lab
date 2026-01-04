@@ -130,7 +130,7 @@ Built and operated a cloud based SIEM by deploying Wazuh on AWS EC2 and integrat
 • MITRE ATT&CK mapping view  
 • VirusTotal enriched alert example  
 • Agent and manager configuration files  
-
+### 🌐 Let's Connect
 <a href="https://www.linkedin.com/in/bikasha-gurung">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" />
 </a>
