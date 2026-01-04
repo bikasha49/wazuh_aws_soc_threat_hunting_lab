@@ -1,4 +1,4 @@
-# Cloud SIEM Threat Hunting and Detection using Wazuh and AWS
+# Wazuh AWS SOC Threat Hunting Lab
 
 ## Project Summary
 Built and operated a cloud based SIEM by deploying Wazuh on AWS EC2 and integrating a Windows Server 2022 endpoint. I configured secure communication, collected endpoint telemetry, enabled compliance and file integrity monitoring, enriched alerts with threat intelligence, mapped detections to the MITRE ATT&CK framework, and performed threat hunting using dashboards and event level analysis following a real SOC analyst workflow.
