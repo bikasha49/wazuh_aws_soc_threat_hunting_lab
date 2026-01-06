@@ -2,8 +2,12 @@
 
 ## Project Summary
 Built and operated a cloud based SIEM by deploying Wazuh on AWS EC2 and integrating a Windows Server 2022 endpoint. I configured secure communication, collected endpoint telemetry, enabled compliance and file integrity monitoring, enriched alerts with threat intelligence, mapped detections to the MITRE ATT&CK framework, and performed threat hunting using dashboards and event level analysis following a real SOC analyst workflow.
-### Project Architecture <p align="left">
-  <img src="https://github.com/bikasha49/wazuh-aws-siem-threat-detection/blob/654889d6b134f77e6d29ec7666e299e185afcb98/Screenshots/Wazuh-architecture-diagram.png?raw=true" alt="Project Architecture" width="60%">
+### Project Architecture  
+  <p align="left">
+  <img
+    src="https://github.com/bikasha49/wazuh_aws_soc_threat_hunting_lab/blob/6d36870877a444f1de15f8f2afdf61cfeaefff43/screenshots/wazuh_architecture_diagram.png"
+    width="60%">
+</p>
 
 ## Project Objectives
 • Build a cloud based SIEM environment  
@@ -16,17 +20,24 @@ Built and operated a cloud based SIEM by deploying Wazuh on AWS EC2 and integrat
 • Configured AWS security groups for controlled access  
 • Enabled TLS encrypted agent to manager communication  
 • Accessed Wazuh dashboard securely over HTTPS  
-### Inbound Rules <p align="left">
-  <img src="Screenshots/EC2-Enstance-security-group-inbound-rules.png" alt="EC2 Security Group Rules" width="450">
+### Inbound Rules 
+  <p align="left">
+  <img
+    src="https://raw.githubusercontent.com/bikasha49/wazuh_aws_soc_threat_hunting_lab/6d36870877a444f1de15f8f2afdf61cfeaefff43/screenshots/ec2_enstance_security_group_inbound_rules.png"
+    width="60%">
 </p>
+
 
 ## Endpoint Configuration
 • Installed Wazuh agent on Windows Server 2022  
 • Enrolled agent with the Wazuh Manager  
 • Enabled secure log forwarding  
 • Verified agent status and connectivity  
-### Wazuh Manager <p align="left">
-  <img src="Screenshots/agent-added-dash.png" alt="Wazuh Agent Dashboard" width="450">
+### Wazuh Manager 
+<p align="left">
+  <img
+    src="https://github.com/bikasha49/wazuh_aws_soc_threat_hunting_lab/blob/6d36870877a444f1de15f8f2afdf61cfeaefff43/screenshots/agent_added_dash.png"
+    width="60%">
 </p>
 
 ## Tools and Technologies Used
@@ -42,8 +53,11 @@ Built and operated a cloud based SIEM by deploying Wazuh on AWS EC2 and integrat
 • Windows Application logs  
 • Authentication and audit logs  
 • File integrity monitoring events  
-### Logs Collected <p align="left">
-  <img src="Screenshots/Threat-hunting-dashboard.png" alt="Wazuh Threat Hunting Dashboard" width="450">
+### Logs Collected 
+<p align="left">
+  <img
+    src="https://github.com/bikasha49/wazuh_aws_soc_threat_hunting_lab/blob/6d36870877a444f1de15f8f2afdf61cfeaefff43/screenshots/threat_hunting-events.png"
+    width="60%">
 </p>
 
 ## Threat Detection Performed
@@ -52,8 +66,11 @@ Built and operated a cloud based SIEM by deploying Wazuh on AWS EC2 and integrat
 • Suspicious process and service execution  
 • File modification and persistence behavior  
 • Alerts mapped to MITRE ATT&CK techniques
-### Mitre Att&ck Techniques <p align="left">
-  <img src="Screenshots/Miter-att%26ck-techniques.png" alt="MITRE ATT&CK Techniques" width="450">
+### Mitre Att&ck Techniques 
+<p align="left">
+  <img
+    src="https://github.com/bikasha49/wazuh_aws_soc_threat_hunting_lab/blob/6d36870877a444f1de15f8f2afdf61cfeaefff43/screenshots/miter_att%26ck_techniques.png"
+    width="60%">
 </p>
 
 ## Threat Hunting Workflow
@@ -61,33 +78,47 @@ Built and operated a cloud based SIEM by deploying Wazuh on AWS EC2 and integrat
 • Pivoted from alerts to raw event data  
 • Analyzed timestamps, users, and host context  
 • Followed structured SOC investigation methodology  
+
 ### Threat Hunting Events
 <p align="left">
-  <img src="Screenshots/Threat-hunting-events.png" alt="Wazuh Threat Hunting Events" width="450">
+  <img
+    src="https://github.com/bikasha49/wazuh_aws_soc_threat_hunting_lab/blob/6d36870877a444f1de15f8f2afdf61cfeaefff43/screenshots/threat_hunting-events.png"
+    width="60%">
 </p>
 
 ## MITRE ATT&CK Alignment
 • Mapped detections to tactics and techniques  
 • Demonstrated visibility across the attack lifecycle  
 • Used framework driven validation during investigations  
-### Analytical Value <p align="left">
-<img src="Screenshots/Mitre-att%26ck-dashboard.png" alt="MITRE ATT&CK Dashboard" width="450">
+
+### Analytical Value 
+<p align="left">
+  <img
+    src="https://github.com/bikasha49/wazuh_aws_soc_threat_hunting_lab/blob/6d36870877a444f1de15f8f2afdf61cfeaefff43/screenshots/mitre_att%26ck_dashboard.png"
+    width="60%">
 </p>
 
 ## File Integrity Monitoring
 • Monitored critical Windows directories  
 • Detected unauthorized file creation and changes  
 • Generated real time alerts on modification events  
-### FIN Alerts <p align="left">
-  <img src="Screenshots/file-integrity-monitor-dash-added-modified-deleted.png" alt="File Integrity Monitoring Dashboard" width="450">
+
+### FIN Alerts 
+<p align="left">
+  <img
+    src="https://github.com/bikasha49/wazuh_aws_soc_threat_hunting_lab/blob/6d36870877a444f1de15f8f2afdf61cfeaefff43/screenshots/file_integrity_monitor_dash_added_modified_deleted.png"
+    width="60%">
 </p>
 
 ## Configuration Assessment
 • Applied CIS benchmark for Windows Server 2022  
 • Identified security misconfigurations  
 • Measured endpoint security posture  
-### Benchmark <p align="left">
-  <img src="Screenshots/Configuration-assessment-dashboard.png" alt="Configuration Assessment Dashboard" width="450">
+### Benchmark 
+<p align="left">
+  <img
+    src="https://github.com/bikasha49/wazuh_aws_soc_threat_hunting_lab/blob/6d36870877a444f1de15f8f2afdf61cfeaefff43/screenshots/configuration_assessment_dashboard.png"
+    width="60%">
 </p>
 
 ## Threat Intelligence Integration
@@ -95,8 +126,11 @@ Built and operated a cloud based SIEM by deploying Wazuh on AWS EC2 and integrat
 • Enriched alerts with file hash reputation data  
 • Reduced false positives  
 • Improved alert context and investigation accuracy  
-### SIEM Integration <p align="left">
-  <img src="Screenshots/VirusTotal-usage%20.png" alt="VirusTotal Integration Usage" width="450">
+### SIEM Integration 
+<p align="left">
+  <img
+    src="https://github.com/bikasha49/wazuh_aws_soc_threat_hunting_lab/blob/6d36870877a444f1de15f8f2afdf61cfeaefff43/screenshots/virustotal_usage.png"
+    width="60%">
 </p>
 
 ## Active Response
@@ -124,7 +158,7 @@ Built and operated a cloud based SIEM by deploying Wazuh on AWS EC2 and integrat
 • Shows cloud security awareness  
 • Shows professional documentation and reporting skills  
 
-## Screenshots and Evidence 👉 *[Click here](https://github.com/bikasha49/wazuh-aws-siem-threat-detection/tree/main/Screenshots)*
+## Screenshots and Evidence 👉 *[Click here](https://github.com/bikasha49/wazuh_aws_soc_threat_hunting_lab/tree/main/screenshots)*
 
 ### 🌐 Let's Connect
 <a href="https://www.linkedin.com/in/bikasha-gurung">
